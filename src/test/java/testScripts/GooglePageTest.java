@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class GooglePageTest {
+	
+	//this will create run script for test1
   @Test
   public void JavaTutorialsearch() {
 	  
@@ -18,6 +20,7 @@ public class GooglePageTest {
 	  srcBox.submit();
 	 
   }
+  //this will create run script for test2
   @Test
   public void JavaTutorialsearch1() {
   WebDriver driver = new ChromeDriver();
